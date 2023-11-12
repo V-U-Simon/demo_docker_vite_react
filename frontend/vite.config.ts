@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   // develop server configuration
   server: {
+    // for hot reloading
     watch: { usePolling: true },
     host: true,
     strictPort: true,
